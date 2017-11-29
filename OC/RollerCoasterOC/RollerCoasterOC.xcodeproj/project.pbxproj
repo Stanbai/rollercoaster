@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63649071EB3442600F50A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F63649061EB3442600F50A7C /* main.m */; };
+		F636490A1EB3442600F50A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F63649091EB3442600F50A7C /* AppDelegate.m */; };
+		F636490D1EB3442600F50A7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F636490C1EB3442600F50A7C /* ViewController.m */; };
+		F63649101EB3442600F50A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F636490E1EB3442600F50A7C /* Main.storyboard */; };
+		F63649121EB3442600F50A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63649111EB3442600F50A7C /* Assets.xcassets */; };
+		F63649151EB3442600F50A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63649131EB3442600F50A7C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F63649021EB3442600F50A7C /* RollerCoasterOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollerCoasterOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63649061EB3442600F50A7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F63649081EB3442600F50A7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F63649091EB3442600F50A7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F636490B1EB3442600F50A7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F636490C1EB3442600F50A7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F636490F1EB3442600F50A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63649111EB3442600F50A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63649141EB3442600F50A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F63649161EB3442600F50A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63648FF1EB3442600F50A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63648F91EB3442600F50A7C = {
+			isa = PBXGroup;
+			children = (
+				F63649041EB3442600F50A7C /* RollerCoasterOC */,
+				F63649031EB3442600F50A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F63649031EB3442600F50A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63649021EB3442600F50A7C /* RollerCoasterOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63649041EB3442600F50A7C /* RollerCoasterOC */ = {
+			isa = PBXGroup;
+			children = (
+				F63649081EB3442600F50A7C /* AppDelegate.h */,
+				F63649091EB3442600F50A7C /* AppDelegate.m */,
+				F636490B1EB3442600F50A7C /* ViewController.h */,
+				F636490C1EB3442600F50A7C /* ViewController.m */,
+				F636490E1EB3442600F50A7C /* Main.storyboard */,
+				F63649111EB3442600F50A7C /* Assets.xcassets */,
+				F63649131EB3442600F50A7C /* LaunchScreen.storyboard */,
+				F63649161EB3442600F50A7C /* Info.plist */,
+				F63649051EB3442600F50A7C /* Supporting Files */,
+			);
+			path = RollerCoasterOC;
+			sourceTree = "<group>";
+		};
+		F63649051EB3442600F50A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F63649061EB3442600F50A7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63649011EB3442600F50A7C /* RollerCoasterOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63649191EB3442600F50A7C /* Build configuration list for PBXNativeTarget "RollerCoasterOC" */;
+			buildPhases = (
+				F63648FE1EB3442600F50A7C /* Sources */,
+				F63648FF1EB3442600F50A7C /* Frameworks */,
+				F63649001EB3442600F50A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollerCoasterOC;
+			productName = RollerCoasterOC;
+			productReference = F63649021EB3442600F50A7C /* RollerCoasterOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63648FA1EB3442600F50A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = stan;
+				TargetAttributes = {
+					F63649011EB3442600F50A7C = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F63648FD1EB3442600F50A7C /* Build configuration list for PBXProject "RollerCoasterOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63648F91EB3442600F50A7C;
+			productRefGroup = F63649031EB3442600F50A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63649011EB3442600F50A7C /* RollerCoasterOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63649001EB3442600F50A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63649151EB3442600F50A7C /* LaunchScreen.storyboard in Resources */,
+				F63649121EB3442600F50A7C /* Assets.xcassets in Resources */,
+				F63649101EB3442600F50A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63648FE1EB3442600F50A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F636490D1EB3442600F50A7C /* ViewController.m in Sources */,
+				F636490A1EB3442600F50A7C /* AppDelegate.m in Sources */,
+				F63649071EB3442600F50A7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F636490E1EB3442600F50A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F636490F1EB3442600F50A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63649131EB3442600F50A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63649141EB3442600F50A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63649171EB3442600F50A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F63649181EB3442600F50A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F636491A1EB3442600F50A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollerCoasterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byeonline.RollerCoasterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F636491B1EB3442600F50A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollerCoasterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byeonline.RollerCoasterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63648FD1EB3442600F50A7C /* Build configuration list for PBXProject "RollerCoasterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63649171EB3442600F50A7C /* Debug */,
+				F63649181EB3442600F50A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63649191EB3442600F50A7C /* Build configuration list for PBXNativeTarget "RollerCoasterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F636491A1EB3442600F50A7C /* Debug */,
+				F636491B1EB3442600F50A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63648FA1EB3442600F50A7C /* Project object */;
+}
